@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* Gradient background from left to right */
+    background: linear-gradient(90deg, #651758 0%, #311562 50%, #1b1834 100%);
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+header h1 {
+    font-size: 18px;
+    color: #ff1675;
+    margin-bottom: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align elements at the top */
+    align-items: flex-start; /* Align items to the left */
+}
+
+.main-content {
+    margin-bottom: 40px; /* Space between text and image */
+}
+
+.main-content h2 {
+    font-size: 48px; /* Larger font for heading */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff; /* White text for h2 */
+}
+
+.main-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px; /* Limit width for readability */
+    margin-bottom: 30px;
+}
+
+.image-container {
+    width: 100%; /* Full width for the image */
+    text-align: left;
+    margin-bottom: 30px; /* Space between image and button */
+}
+
+.image-container img {
+    max-width: 400px; /* Adjust size to fit the layout */
+    width: 100%;
+    border-radius: 10px;
+}
+
+.try-button {
+    background-color: #ff1675; /* Pink button */
+    border: none;
+    padding: 15px 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.try-button:hover {
+    background-color: #ff295c;
+}
